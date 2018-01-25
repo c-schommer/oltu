@@ -54,6 +54,7 @@
 
   <modules>
     <module>jws</module>
+    <module>jwe</module>
   </modules>
 
   <profiles>
