@@ -99,6 +99,7 @@ public final class JSONUtils {
                     }
                 }
             }
+            generator.writeEnd();
         }
 
         return stringWriter.toString();
