@@ -104,7 +104,7 @@ public abstract class OAuthClientResponse {
     /**
      * Default implementation that converts the body InputStream to a String and delegates
      * to {@link #init(String, String, int)}.
-     * <br/>
+     * <p>
      * This implementation ensures backwards compatibility, as many subclasses expect String
      * type bodies. At the same time it can be overridden to also deal with binary InputStreams.
      *

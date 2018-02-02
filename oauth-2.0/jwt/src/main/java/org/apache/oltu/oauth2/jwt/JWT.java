@@ -60,20 +60,20 @@ public class JWT {
     }
 
     /**
-     * Get the JWT Header as defined in the 6.1 section of the JWT specification.
+     * Get the JWT Header as defined in the 5 section of the JWT specification.
      *
      * @return the JWT Header.
-     * @see http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-06#section-6.1
+     * @see <a href="https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-06#section-5">spec</a>
      */
     public Header getHeader() {
         return header;
     }
 
     /**
-     * Get the JWT Claims Set as defined in the 6.1 section of the JWT specification.
+     * Get the JWT Claims Set as defined in the 4 section of the JWT specification.
      *
      * @return the JWT Claims Set
-     * @see http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-06#section-6.1
+     * @see <a href="https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-06#section-4">spec</a>
      */
     public ClaimsSet getClaimsSet() {
         return claimsSet;

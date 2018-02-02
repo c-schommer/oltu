@@ -35,7 +35,7 @@ import org.apache.oltu.oauth2.common.message.OAuthMessage;
  * <li>HTTP request entity-body with application/json encoding</li>
  * <li>HTTP request Authorization/WWW-Authenticate header</li>
  * </ul>
- * <p/>
+ * <p>
  * Additional implementations can be provided.
  *
  *

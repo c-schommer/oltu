@@ -21,9 +21,9 @@ import java.util.Map;
 import org.apache.oltu.commons.json.CustomizableEntity;
 
 /**
- * Represents the Header as defined in the section 4 of the JWS specification.
+ * Represents the Header as defined in the section 5 of the JWS specification.
  *
- * @see http://tools.ietf.org/html/draft-ietf-jose-json-web-signature-15#section-4
+ * @see <a href="https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-06#section-5">spec</a>
  */
 public final class Header extends CustomizableEntity {
 

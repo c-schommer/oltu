@@ -50,7 +50,7 @@ import org.apache.oltu.oauth2.common.exception.OAuthSystemException;
 
 /**
  * Common OAuth Utils class.
- * <p/>
+ * <p>
  * Some methods based on the Utils class from OAuth V1.0a library available at:
  * http://oauth.googlecode.com/svn/code/java/core/
  *
@@ -130,7 +130,7 @@ public final class OAuthUtils {
      * @param is             input stream to be saved as string
      * @param defaultCharset character set to be applied if none found in the entity
      * @return the entity content as a String
-     * @throws IllegalArgumentException if entity is null or if content length > Integer.MAX_VALUE
+     * @throws IllegalArgumentException if entity is null or if content length &gt; Integer.MAX_VALUE
      * @throws IOException              if an error occurs reading the input stream
      */
     public static String toString(

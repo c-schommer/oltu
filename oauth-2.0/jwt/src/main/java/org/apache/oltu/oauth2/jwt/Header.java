@@ -25,7 +25,7 @@ import org.apache.oltu.commons.json.CustomizableEntity;
 /**
  * Represents the Header as defined in the 6.1 section of the JWT specification.
  *
- * @see http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-06#section-6.1
+ * @see <a href="https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-06#section-5">spec</a>
  */
 public final class Header extends CustomizableEntity {
 

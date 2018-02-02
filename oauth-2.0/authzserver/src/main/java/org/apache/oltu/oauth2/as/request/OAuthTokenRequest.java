@@ -36,7 +36,7 @@ import org.apache.oltu.oauth2.common.validators.OAuthValidator;
 /**
  * The Default OAuth Authorization Server class that validates whether a given HttpServletRequest is a valid
  * OAuth Token request.
- * <p/>
+ * <p>
  * IMPORTANT: This OAuthTokenRequest assumes that a token request requires client authentication.
  * Please see section 3.2.1 of the OAuth Specification: http://tools.ietf.org/html/rfc6749#section-3.2.1
  */
