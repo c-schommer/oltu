@@ -41,11 +41,18 @@ Add this to your `pom.xml`:
 </repository>
 ```
 
+And include dependencies you need, for example:
+
 ```xml
 <dependency>
-    <groupId>org.apache</groupId>
-    <artifactId>oltu</artifactId>
+    <groupId>org.apache.oltu.oauth2</groupId>
+    <artifactId>org.apache.oltu.oauth2.client</artifactId>
     <version>1.0.3-pawelniewie</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.oltu.oauth2</groupId>
+    <artifactId>org.apache.oltu.oauth2.jwt</artifactId>
+    <version>1.0.4-pawelniewie</version>
 </dependency>
 ```
 
