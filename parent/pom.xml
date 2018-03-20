@@ -346,8 +346,19 @@
      </notifier>
    </notifiers>
   </ciManagement>
+
   <distributionManagement>
     <downloadUrl>https://oltu.apache.org/download.html</downloadUrl>
+    <repository>
+      <id>internal.repo</id>
+      <name>Temporary Staging Repository</name>
+      <url>file://${user.home}/.m2/mvn-repo/oltu</url>
+    </repository>
+    <snapshotRepository>
+      <id>internal.repo</id>
+      <name>Temporary Staging Repository</name>
+      <url>file://${user.home}/.m2/mvn-repo/oltu</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <properties>
@@ -824,7 +835,10 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.4</version>
+            <configuration>
+              <executable>gpg2</executable>
+              <useAgent>true</useAgent>
+            </configuration>
             <executions>
               <execution>
                 <id>sign-artifacts</id>

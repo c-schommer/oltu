@@ -40,6 +40,10 @@
     <module>demos</module>
   </modules>
 
+  <properties>
+    <github.global.server>github</github.global.server>
+  </properties>
+
   <build>
     <plugins>
       <plugin>
@@ -50,7 +54,30 @@
           <skip>true</skip>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>com.github.github</groupId>
+        <artifactId>site-maven-plugin</artifactId>
+        <version>0.12</version>
+        <configuration>
+          <message>Maven artifacts for ${project.version}</message>
+          <noJekyll>true</noJekyll>
+          <outputDirectory>${user.home}/.m2/mvn-repo/oltu</outputDirectory>
+          <branch>refs/heads/mvn-repo</branch>
+          <includes>
+            <include>**/*</include>
+          </includes>
+          <repositoryName>oltu</repositoryName>
+          <repositoryOwner>pawelniewie</repositoryOwner>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>site</goal>
+            </goals>
+            <phase>deploy</phase>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
-
 </project>
