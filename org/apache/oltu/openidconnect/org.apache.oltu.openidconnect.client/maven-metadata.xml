@@ -3,9 +3,11 @@
   <groupId>org.apache.oltu.openidconnect</groupId>
   <artifactId>org.apache.oltu.openidconnect.client</artifactId>
   <versioning>
+    <release>0.0.1-pawelniewie</release>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1-pawelniewie</version>
     </versions>
-    <lastUpdated>20180320102954</lastUpdated>
+    <lastUpdated>20180320111853</lastUpdated>
   </versioning>
 </metadata>

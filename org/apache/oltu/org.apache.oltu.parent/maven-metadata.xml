@@ -3,9 +3,11 @@
   <groupId>org.apache.oltu</groupId>
   <artifactId>org.apache.oltu.parent</artifactId>
   <versioning>
+    <release>5-pawelniewie</release>
     <versions>
       <version>5-SNAPSHOT</version>
+      <version>5-pawelniewie</version>
     </versions>
-    <lastUpdated>20180320102946</lastUpdated>
+    <lastUpdated>20180320111845</lastUpdated>
   </versioning>
 </metadata>

@@ -3,9 +3,11 @@
   <groupId>org.apache.oltu.jose</groupId>
   <artifactId>org.apache.oltu.jose.jwe</artifactId>
   <versioning>
+    <release>1.0.0-pawelniewie</release>
     <versions>
       <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0-pawelniewie</version>
     </versions>
-    <lastUpdated>20180320102955</lastUpdated>
+    <lastUpdated>20180320111853</lastUpdated>
   </versioning>
 </metadata>

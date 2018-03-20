@@ -3,9 +3,11 @@
   <groupId>org.apache.oltu.oauth2</groupId>
   <artifactId>org.apache.oltu.oauth2.dynamicreg.common</artifactId>
   <versioning>
+    <release>1.0.3-pawelniewie</release>
     <versions>
       <version>1.0.3-SNAPSHOT</version>
+      <version>1.0.3-pawelniewie</version>
     </versions>
-    <lastUpdated>20180320102949</lastUpdated>
+    <lastUpdated>20180320111848</lastUpdated>
   </versioning>
 </metadata>
