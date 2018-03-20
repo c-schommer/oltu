@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.oltu.oauth2</groupId>
+  <artifactId>org.apache.oltu.oauth2.jwt</artifactId>
+  <version>1.0.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180320.102953</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20180320102953</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.4-20180320.102953-2</value>
+        <updated>20180320102953</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.4-20180320.102953-2</value>
+        <updated>20180320102953</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
