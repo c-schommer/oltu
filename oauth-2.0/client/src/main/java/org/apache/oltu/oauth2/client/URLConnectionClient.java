@@ -54,7 +54,7 @@ import org.apache.oltu.oauth2.common.utils.OAuthUtils;
  */
 public class URLConnectionClient implements HttpClient {
 
-    private Proxy proxy = Proxy.NO_PROXY;
+    private Proxy proxy = null;
 
     public URLConnectionClient() {
     }
@@ -75,7 +75,7 @@ public class URLConnectionClient implements HttpClient {
         try {
             URL url = new URL(request.getLocationUri());
 
-            c = url.openConnection(proxy);
+            c = proxy != null ? url.openConnection(proxy) : url.openConnection();
             responseCode = -1;
             if (c instanceof HttpURLConnection) {
                 HttpURLConnection httpURLConnection = (HttpURLConnection) c;
